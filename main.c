@@ -6,10 +6,10 @@
 int main(int argc, char *argv[]) {
 	
 	int x; short y; char w; double d; float f;
-	printf("bytes of int : %d\n",sizeof(int));
-	printf("bytes of short : %d\n",sizeof(short));
-	printf("bytes of char : %d\n",sizeof(char));
-	printf("bytes of double : %d\n",sizeof(double));
-	printf("bytes of flaot : %d\n",sizeof(float));
+	printf("bytes of int : %d\n",sizeof(x));
+	printf("bytes of short : %d\n",sizeof(y));
+	printf("bytes of char : %d\n",sizeof(w));
+	printf("bytes of double : %d\n",sizeof(d));
+	printf("bytes of flaot : %d\n",sizeof(f));
 	return 0;
 }
